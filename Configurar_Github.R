@@ -25,6 +25,16 @@ usethis::create_github_token()
 # Reinicie o RStudio: CTRL + SHIFT + F10
 # Pronto :)
 
+# Versionar e configurar o Rstudio com o githtb
+usethis::use_git()
+
+# Conectar ao github
+usethis::use_github()
+
+
+
+
+
 
 
 
