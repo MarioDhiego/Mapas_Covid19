@@ -14,7 +14,7 @@ usethis::use_git_config(user.name = "MarioDhiego",
 usethis::edit_r_environ()
 
 # Criar o token do github
-#usethis::browse_github_token()
+usethis::browse_github_token()
 usethis::create_github_token()
 
 # Salvar o token no arquivo .Renviron, usando este padrão (sem o #):
